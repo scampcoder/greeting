@@ -4,9 +4,9 @@ const hrs = today.getHours();
   document.writeln("<b>");
   document.writeln("<b>");
   if(hrs <= 12){
-    document.write("Good Morning " + name + "!");
+    document.write("Good morning, " + name + "!");
     } else if (hrs <= 18) {
-    document.write("Good Afternoon " + name + "!");
+    document.write("Good afternoon, " + name + "!");
     } else {
-      document.write("Good evening " + name + "!");
+      document.write("Good evening, " + name + "!");
     }
